@@ -11,7 +11,7 @@ public class Main {
         if (in.hasNextInt())
         {
             birthMonth = in.nextInt();
-            in.nextLine();
+            in.nextLine(); // clearing buffer
 
             if (birthMonth >= 1 && birthMonth <= 12)
             {
